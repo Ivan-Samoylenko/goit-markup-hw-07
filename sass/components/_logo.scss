@@ -1,0 +1,24 @@
+.logo {
+  display: inline-block;
+
+  font-family: 'raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+}
+
+.logo__studio {
+  color: var(--black-primary-color);
+
+  transition: color var(--primary-animation);
+
+  .logo:hover > & {
+    color: var(--accent-color);
+  }
+}
+
+.logo__studio--footer {
+  color: var(--white-primary-color);
+}

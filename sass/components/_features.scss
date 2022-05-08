@@ -1,0 +1,41 @@
+.features {
+  margin-top: calc(-1 * var(--gutter));
+  margin-left: calc(-1 * var(--gutter));
+
+  display: flex;
+}
+
+.features__item {
+  width: calc(100% / 4 - var(--gutter));
+  margin-top: var(--gutter);
+  margin-left: var(--gutter);
+}
+
+.features__icon-thumb {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--white-secondary-color);
+}
+
+.features__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--grey-secondary-color);
+}
+
+.features__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
