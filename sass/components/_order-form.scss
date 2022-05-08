@@ -14,7 +14,7 @@
   line-height: 1.15;
   text-align: center;
 
-  color: var(--grey-secondary-color);
+  color: $grey-secondary-color;
 }
 
 .order-form__field {
@@ -38,7 +38,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--grey-primary-color);
+  color: $grey-primary-color;
 }
 
 .order-form__input {
@@ -52,16 +52,16 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--grey-secondary-color);
+  color: $grey-secondary-color;
 
-  transition: border-color var(--primary-animation);
+  transition: border-color $primary-animation;
 
   outline: none;
 }
 
 .order-form__field:focus-within .order-form__input {
-  border-color: var(--accent-color);
-  box-shadow: 0 0 0 1px var(--white-primary-color), 0 0 0 3px var(--black-primary-color);
+  border-color: $accent-color;
+  box-shadow: 0 0 0 1px $white-primary-color, 0 0 0 3px $black-primary-color;
 }
 
 .order-form__input--textarea {
@@ -76,13 +76,13 @@
   top: 50%;
   left: 12px;
 
-  fill: var(--grey-secondary-color);
+  fill: $grey-secondary-color;
   transform: translateY(-50%);
-  transition: fill var(--primary-animation);
+  transition: fill $primary-animation;
 }
 
 .order-form__field:focus-within .order-form__icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .order-form__checkbox-field {
@@ -110,24 +110,24 @@
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  border: 1px solid var(--black-primary-color);
+  border: 1px solid $black-primary-color;
   border-radius: 2px;
 
   display: block;
 
   color: transparent;
-  background-color: var(--white-primary-color);
+  background-color: $white-primary-color;
 }
 
 .order-form__check:focus + .order-form__checkbox {
-  box-shadow: 0 0 0 1px var(--white-primary-color), 0 0 0 3px var(--black-primary-color);
+  box-shadow: 0 0 0 1px $white-primary-color, 0 0 0 3px $black-primary-color;
 }
 
 .order-form__check:checked + .order-form__checkbox {
   border: none;
 
-  color: var(--white-primary-color);
-  background-color: var(--accent-color);
+  color: $white-primary-color;
+  background-color: $accent-color;
 }
 
 .order-form__checkbox-icon {
@@ -135,5 +135,5 @@
 }
 
 .order-form__form-link {
-  color: var(--accent-color);
+  color: $accent-color;
 }

@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--grey-footer-color);
+  background-color: $grey-footer-color;
 }
 
 .page-footer__container {
@@ -30,5 +30,5 @@
 
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--white-primary-color);
+  color: $white-primary-color;
 }

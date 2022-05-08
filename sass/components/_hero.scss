@@ -8,8 +8,8 @@
 
   text-align: center;
 
-  background-color: var(--grey-footer-color);
-  background-image: linear-gradient(var(--hero-background-gradient)), url(../images/bcg-hero.jpg);
+  background-color: $grey-footer-color;
+  background-image: linear-gradient($hero-background-gradient), url(../images/bcg-hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,5 +28,5 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: var(--white-primary-color);
+  color: $white-primary-color;
 }

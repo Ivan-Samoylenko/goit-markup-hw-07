@@ -6,19 +6,19 @@
   font-size: 26px;
   line-height: 1.19;
 
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .logo__studio {
-  color: var(--black-primary-color);
+  color: $black-primary-color;
 
-  transition: color var(--primary-animation);
+  transition: color $primary-animation;
 
   .logo:hover > & {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .logo__studio--footer {
-  color: var(--white-primary-color);
+  color: $white-primary-color;
 }

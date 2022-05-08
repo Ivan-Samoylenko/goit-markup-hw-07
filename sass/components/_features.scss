@@ -1,14 +1,14 @@
 .features {
-  margin-top: calc(-1 * var(--gutter));
-  margin-left: calc(-1 * var(--gutter));
+  margin-top: calc(-1 * 30px);
+  margin-left: calc(-1 * 30px);
 
   display: flex;
 }
 
 .features__item {
-  width: calc(100% / 4 - var(--gutter));
-  margin-top: var(--gutter);
-  margin-left: var(--gutter);
+  width: calc(100% / 4 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .features__icon-thumb {
@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: var(--white-secondary-color);
+  background-color: $white-secondary-color;
 }
 
 .features__title {
@@ -32,7 +32,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--grey-secondary-color);
+  color: $grey-secondary-color;
 }
 
 .features__text {

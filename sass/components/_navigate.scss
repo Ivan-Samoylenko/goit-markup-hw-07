@@ -22,18 +22,18 @@
 }
 
 .navigate__link {
-  color: var(--grey-secondary-color);
+  color: $grey-secondary-color;
 
-  transition: color var(--primary-animation);
+  transition: color $primary-animation;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .navigate__link--current {
-  color: var(--accent-color);
+  color: $accent-color;
 
   &::after {
     content: '';
@@ -44,6 +44,6 @@
     height: 4px;
     border-radius: 2px;
 
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }

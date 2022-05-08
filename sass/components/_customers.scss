@@ -19,13 +19,13 @@
   justify-content: center;
   align-items: center;
 
-  color: var(--icon-primary-color);
+  color: $icon-primary-color;
 
-  transition: color var(--primary-animation);
+  transition: color $primary-animation;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 

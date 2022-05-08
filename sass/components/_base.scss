@@ -4,8 +4,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--grey-primary-color);
-  background-color: var(--white-primary-color);
+  color: $grey-primary-color;
+  background-color: $white-primary-color;
 }
 
 img {

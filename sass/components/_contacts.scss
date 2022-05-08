@@ -23,22 +23,22 @@
 
 .contacts__link {
   white-space: nowrap;
-  color: var(--grey-primary-color);
+  color: $grey-primary-color;
 
-  transition: color var(--primary-animation);
+  transition: color $primary-animation;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }
 
 .contacts__link--direction {
-  color: var(--white-primary-color);
+  color: $white-primary-color;
 }
 
 .contacts__link--opacity {
-  color: var(--white-primary-opacity-color);
+  color: $white-primary-opacity-color;
 }
 
 .contacts__icon {

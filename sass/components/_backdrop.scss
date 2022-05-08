@@ -9,7 +9,7 @@
   opacity: 1;
   visibility: visible;
 
-  transition: opacity var(--primary-animation), visibility var(--primary-animation);
+  transition: opacity $primary-animation, visibility $primary-animation;
 }
 
 .backdrop.is-hidden {

@@ -1,7 +1,7 @@
 .container {
-  max-width: var(--container-width);
+  max-width: $container-width;
   margin-right: auto;
   margin-left: auto;
-  padding-right: var(--container-indent);
-  padding-left: var(--container-indent);
+  padding-right: $container-indent;
+  padding-left: $container-indent;
 }

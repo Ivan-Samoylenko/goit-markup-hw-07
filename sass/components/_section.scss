@@ -8,7 +8,7 @@
 }
 
 .section--gray {
-  background-color: var(--white-secondary-color);
+  background-color: $white-secondary-color;
 }
 
 .section__title {
@@ -19,5 +19,5 @@
   line-height: 1.17;
   text-align: center;
 
-  color: var(--grey-secondary-color);
+  color: $grey-secondary-color;
 }

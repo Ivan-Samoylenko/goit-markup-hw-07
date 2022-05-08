@@ -18,26 +18,26 @@
   justify-content: center;
   align-items: center;
 
-  transition: background-color var(--primary-animation), color var(--primary-animation);
+  transition: background-color $primary-animation, color $primary-animation;
 }
 
 .socials__icon-thumb--light {
-  color: var(--icon-primary-color);
+  color: $icon-primary-color;
 
   &:hover,
   &:focus {
-    color: var(--white-primary-color);
-    background-color: var(--accent-color);
+    color: $white-primary-color;
+    background-color: $accent-color;
   }
 }
 
 .socials__icon-thumb--dark {
-  color: var(--white-primary-color);
-  background-color: var(--icon-secondary-color);
+  color: $white-primary-color;
+  background-color: $icon-secondary-color;
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
 }
 
